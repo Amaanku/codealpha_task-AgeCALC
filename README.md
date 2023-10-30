@@ -1,4 +1,7 @@
 # codealpha_task-AgeCALC
+
+Problem statement :- Create a web-based Age Calculator using JavaScript to calculate users' ages based on their submitted date of birth, month, and year. JavaScript's built-in date and time functions simplify the age calculation process, making it easy to determine someone's age.
+
 [Visit Website](https://amaanku.github.io/codealpha_task-AgeCALC/)
 
 # Age Calculator Web Application
