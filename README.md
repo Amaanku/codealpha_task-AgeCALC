@@ -23,7 +23,7 @@ The Age Calculator Web Application is a useful tool for quickly determining one'
 ## Usage
 1. **Clone the Repository:**
    ```
-   
+   git clone "https://github.com/Amaanku/codealpha_task-AgeCALC.git"
    ```
 
 2. **Open the Index.html File:**
