@@ -1,4 +1,4 @@
-document.querySelecter("#calculate").addEventListener("click", function() {
+document.querySelector("#calculate").addEventListener("click", function() {
     const dobInput = document.getElementById('dob');
     const result = document.getElementById('result');
 
@@ -8,9 +8,9 @@ document.querySelecter("#calculate").addEventListener("click", function() {
     if (dob > today) {
         result.textContent = 'Please select a date of birth that is not in the future.';
     } else {
-        const years = today.getFullYear() - dob.getFullYear();
-        const months = today.getMonth() - dob.getMonth();
-        const days = today.getDate() - dob.getDate();
+        let years = today.getFullYear() - dob.getFullYear();
+        let months = today.getMonth() - dob.getMonth();
+        let days = today.getDate() - dob.getDate();
 
         if (days < 0) {
             months--;
