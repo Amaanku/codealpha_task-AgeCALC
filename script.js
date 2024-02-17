@@ -1,4 +1,4 @@
-document.getElementById('calculate').addEventListener('click', function() {
+document.querySelecter("#calculate").addEventListener("click", function() {
     const dobInput = document.getElementById('dob');
     const result = document.getElementById('result');
 
